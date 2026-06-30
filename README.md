@@ -26,8 +26,7 @@ This project answers:
 order items, payments, reviews, geolocation, category translation).
 
 ## Architecture
-![Architecture Diagram](Diagrams/Architecture%20diagram.png)
-
+![Architecture Diagram](Diagrams/architecture_diagram.png)
 The pipeline follows the Medallion architecture:
 - **Bronze:** Raw CSV files loaded as-is into Snowflake via Snowsight, 
   preserving original structure for traceability.
@@ -40,7 +39,7 @@ The pipeline follows the Medallion architecture:
   a cron schedule, with automated email alerts on success or failure.
 
 ## Star Schema
-![Star Schema](Diagrams/Star%20Schema.png)
+![Star Schema](Diagrams/star_schema.png)
 
 **Grain:** One row per order line item.
 
