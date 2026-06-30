@@ -127,8 +127,8 @@ olist-data-warehouse/
 ├── SQL/
 │   └── etl_pipeline.sql
 ├── Diagrams/
-│   ├── Architecture diagram.png
-│   └── Star Schema.png
+│   ├── architecture_diagram.png
+│   └── star_schema.png
 ├── Screenshots/
 │   ├── Revenue.png
 │   ├── Customers.png
