@@ -26,7 +26,7 @@ This project answers:
 order items, payments, reviews, geolocation, category translation).
 
 ## Architecture
-![Architecture Diagram](Diagrams/Architecture_diagram.png)
+![Architecture Diagram](Diagrams/architecture_diagram.png)
 The pipeline follows the Medallion architecture:
 - **Bronze:** Raw CSV files loaded as-is into Snowflake via Snowsight, 
   preserving original structure for traceability.
